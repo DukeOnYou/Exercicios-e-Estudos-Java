@@ -28,3 +28,26 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Compilados do Java (Arquivos .class e logs)
+*.class
+*.log
+
+# Pastas de build/compilação automática
+/out/
+/target/
+/build/
+
+# Configurações do IntelliJ IDEA
+.idea/
+*.iml
+
+# Configurações do Eclipse (caso use algum dia)
+.metadata/
+.classpath
+.project
+.settings/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
