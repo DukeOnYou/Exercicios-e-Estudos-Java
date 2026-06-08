@@ -1,3 +1,5 @@
+package duke.projeto.estudos.modelos;
+
 public class Item extends Mansao {
     private int quantidadeDeUsosNaSala;
     private boolean player_has;

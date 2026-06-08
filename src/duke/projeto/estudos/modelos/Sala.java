@@ -1,4 +1,6 @@
-public class Sala extends Mansao{
+package duke.projeto.estudos.modelos;
+
+public class Sala extends Mansao {
     private boolean player_is;
     private int row;
     private int col;

@@ -1,3 +1,7 @@
+import duke.projeto.estudos.calculos.Propriedades;
+import duke.projeto.estudos.modelos.Item;
+import duke.projeto.estudos.modelos.Sala;
+
 public class Main {
     public static void main(String[] args) {
         Item itemAtual = new Item();
@@ -17,5 +21,11 @@ public class Main {
 
         itemAtual.exibirPropriedades();
         salaAtual.exibirPropriedades();
+
+        Propriedades propriedadesAtual = new Propriedades();
+        propriedadesAtual.chamaNome(salaAtual);
+        propriedadesAtual.chamaNome(itemAtual);
+
+        propriedadesAtual.filtro(itemAtual);
     }
 }

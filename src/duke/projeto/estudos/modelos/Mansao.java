@@ -1,4 +1,8 @@
-public class Mansao {
+package duke.projeto.estudos.modelos;
+
+import duke.projeto.estudos.calculos.Avaliacao;
+
+public class Mansao implements Avaliacao {
     private String nome;
     private int id;
     private String raridade;
@@ -33,5 +37,8 @@ public class Mansao {
     public int getId() {
         return id;
     }
+
+    @Override
+    public int avalia() { return 5; }
 
 }
