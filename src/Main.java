@@ -9,14 +9,14 @@ public class Main {
 
         itemAtual.setNome("Prism Key");
         itemAtual.setId(6);
-        itemAtual.setPlayer_has(true);
+        itemAtual.setPlayerHas(true);
         itemAtual.setRaridade("Raro");
 
         salaAtual.setCol(5);
         salaAtual.setRow(4);
         salaAtual.setId(7);
         salaAtual.setNome("Gallery");
-        salaAtual.setPlayer_is(true);
+        salaAtual.setPlayerIs(true);
         salaAtual.setRaridade("Raro");
 
         itemAtual.exibirPropriedades();

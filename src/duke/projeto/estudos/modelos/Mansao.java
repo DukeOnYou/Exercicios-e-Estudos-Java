@@ -7,7 +7,6 @@ public class Mansao implements Avaliacao {
     private int id;
     private String raridade;
 
-
     void exibirPropriedades() {
         System.out.println(nome + ", " + id + ", " + raridade + ".");
 
@@ -16,11 +15,9 @@ public class Mansao implements Avaliacao {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
     public void setId (int id) {
         this.id = id;
     }
-
     public void setRaridade (String raridade) {
         this.raridade = raridade;
     }
@@ -29,14 +26,13 @@ public class Mansao implements Avaliacao {
     public String getNome() {
         return nome;
     }
-
     public String getRaridade() {
         return raridade;
     }
-
     public int getId() {
         return id;
     }
+
 
     @Override
     public int avalia() { return 5; }

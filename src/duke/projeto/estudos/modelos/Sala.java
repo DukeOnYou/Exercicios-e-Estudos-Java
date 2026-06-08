@@ -1,30 +1,28 @@
 package duke.projeto.estudos.modelos;
 
 public class Sala extends Mansao {
-    private boolean player_is;
+    private boolean playerIs;
     private int row;
     private int col;
+
 
     public void setRow(int row) {
         this.row = row;
     }
-
     public void setCol(int col) {
         this.col = col;
     }
-
-    public void setPlayer_is(boolean player_is) {
-        this.player_is = player_is;
+    public void setPlayerIs(boolean playerIs) {
+        this.playerIs = playerIs;
     }
+
 
     public int getRow() {
         return row;
     }
-
-    public boolean isPlayer_is() {
-        return player_is;
+    public boolean isPlayerIs() {
+        return playerIs;
     }
-
     public int getCol() {
         return col;
     }

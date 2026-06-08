@@ -2,14 +2,13 @@ package duke.projeto.estudos.modelos;
 
 public class Item extends Mansao {
     private int quantidadeDeUsosNaSala;
-    private boolean player_has;
+    private boolean playerHas;
 
     public void usosNaSala(int uso) {
         quantidadeDeUsosNaSala += uso;
     }
-
-    public void setPlayer_has(boolean player_has) {
-        this.player_has = player_has;
+    public void setPlayerHas(boolean playerHas) {
+        this.playerHas = playerHas;
     }
 
     @Override
