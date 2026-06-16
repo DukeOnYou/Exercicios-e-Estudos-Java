@@ -11,12 +11,12 @@ public class Propriedades {
 
     public void filtro (Avaliacao avaliacao) {
         if (avaliacao.avalia() > 4) {
-            if (avaliacao instanceof Sala) {
-                System.out.println("A Sala chamada " + avaliacao.getNome() + " é maneira!");
+            if (avaliacao instanceof Sala sala && sala.getNome().equals("Gallery")) {
+                System.out.println("A Sala chamada " + sala.getNome() + " é maneira!");
             }
 
-            else if (avaliacao instanceof Item) {
-                System.out.println("O Item chamado " + avaliacao.getNome() + " é maneiro!");
+            else if (avaliacao instanceof Item item) {
+                System.out.println("O Item chamado " + item.getNome() + " é maneiro!");
             }
         }
     }

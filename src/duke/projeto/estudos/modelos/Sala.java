@@ -5,6 +5,10 @@ public class Sala extends Mansao {
     private int row;
     private int col;
 
+    public Sala(String nome, int id) {
+        super(nome, id);
+    }
+
 
     public void setRow(int row) {
         this.row = row;
