@@ -1,6 +1,4 @@
-package duke.projeto.estudos.modelos;
-
-import java.util.Collections;
+package duke.projeto.estudos.colecionaveis.modelos;
 
 public class Item extends Mansao implements Comparable<Mansao> {
     private int quantidadeDeUsosNaSala;
@@ -19,7 +17,7 @@ public class Item extends Mansao implements Comparable<Mansao> {
 
     @Override
     public void exibirPropriedades() {
-        System.out.println("Este item é o/a " + getNome() + "e tem raridade " + getRaridade() + ".");
+        System.out.println("Este item é o/a " + getNome() + " e tem raridade " + getRaridade() + ".");
     }
 
     @Override

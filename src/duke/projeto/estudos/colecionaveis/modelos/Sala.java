@@ -1,4 +1,4 @@
-package duke.projeto.estudos.modelos;
+package duke.projeto.estudos.colecionaveis.modelos;
 
 public class Sala extends Mansao {
     private boolean playerIs;
@@ -9,7 +9,6 @@ public class Sala extends Mansao {
         super(nome, id);
     }
 
-
     public void setRow(int row) {
         this.row = row;
     }
@@ -19,7 +18,6 @@ public class Sala extends Mansao {
     public void setPlayerIs(boolean playerIs) {
         this.playerIs = playerIs;
     }
-
 
     public int getRow() {
         return row;
@@ -33,6 +31,6 @@ public class Sala extends Mansao {
 
     @Override
     public void exibirPropriedades() {
-        System.out.println("Esta sala é a " + getNome() + "e tem raridade " + getRaridade() + ".");
+        System.out.println("Esta sala é a " + getNome() + " e tem raridade " + getRaridade() + ".");
     }
 }
